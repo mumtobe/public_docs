@@ -23,11 +23,8 @@ pluginsConfig:
 
 title: "MumToBe User Guide"
 description: "Complete documentation for MumToBe Maternal Health Platform"
-author: "MumToBe Team"
-language: en
-
-styles:
-  website: ./styles/website.css
+author: "MumToBe"
+language: pt
 
 variables:
   scribehow_base_url: "https://scribehow.com"
