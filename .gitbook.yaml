@@ -1,140 +1,40 @@
-# GitBook configuration file (.gitbook.yaml)
-# This configuration enables embedding ScribeHow content in GitBook
-
-# Basic GitBook configuration
 root: ./docs
 
-# Structure definition
 structure:
   readme: README.md
   summary: SUMMARY.md
+  languages: LANGS.md
 
-# Plugins configuration
 plugins:
-  # Enable HTML embedding for ScribeHow content
   - html
-  # Enable iframe support
   - iframe
-  # Enable embed functionality
-  - embed
-  # Optional: Enable video embeds
-  - video
+  - search
+  - fontsettings
+  - theme-default
 
-# Plugin configurations
 pluginsConfig:
-  # HTML plugin configuration
   html:
-    # Allow iframe tags for ScribeHow embeds
     allowedTags:
       - iframe
       - div
       - script
     allowedAttributes:
-      iframe:
-        - src
-        - width
-        - height
-        - frameborder
-        - allowfullscreen
-        - scrolling
-        - title
-      div:
-        - class
-        - id
-        - style
-      script:
-        - src
-        - type
+      iframe: [src, width, height, frameborder, allowfullscreen, title]
+      div: [class, id, style, data-lang]
+      script: [src, type]
 
-  # Iframe plugin configuration
-  iframe:
-    # Allow ScribeHow domains
-    allowedDomains:
-      - "scribehow.com"
-      - "*.scribehow.com"
-      - "embed.scribehow.com"
-    # Default iframe settings
-    defaultWidth: "100%"
-    defaultHeight: "600px"
-    sandbox: "allow-scripts allow-same-origin allow-forms"
-
-  # Embed plugin configuration
-  embed:
-    # ScribeHow embed configuration
-    providers:
-      scribehow:
-        pattern: "https://scribehow.com/shared/*"
-        embed: '<iframe src="https://scribehow.com/embed/{id}" width="100%" height="640" allowfullscreen frameborder="0"></iframe>'
-      scribehow-embed:
-        pattern: "https://scribehow.com/page/*"
-        embed: '<iframe src="https://scribehow.com/embed/page/{id}" width="100%" height="640" allowfullscreen frameborder="0"></iframe>'
-
-# PDF generation settings (if needed)
-pdf:
-  # Page size for PDF export
-  pageSize: a4
-  # Font size
-  fontSize: 12
-  # Paper orientation
-  orientation: portrait
-  # Margins
-  margin:
-    right: 62
-    left: 62
-    top: 56
-    bottom: 56
-
-# Variables that can be used throughout GitBook
-variables:
-  # ScribeHow base URL for easy updates
-  scribehow_base_url: "https://scribehow.com"
-  # Default embed dimensions
-  embed_width: "100%"
-  embed_height: "640px"
-  # Organization info
-  org_name: "MumToBe"
-  app_name: "MumToBe Maternal Health Platform"
-
-# Custom CSS for better ScribeHow embed styling
-styles:
-  website: ./docs/styles/website.css
-  pdf: ./docs/styles/pdf.css
-
-# Custom JavaScript (if needed for ScribeHow interactions)
-scripts:
-  - ./docs/scripts/scribehow-integration.js
-
-# Site configuration
-title: "MumToBe Documentation"
-description: "Complete documentation for MumToBe Maternal Health Platform including step-by-step guides powered by ScribeHow"
-
-# Author information
+title: "MumToBe User Guide"
+description: "Complete documentation for MumToBe Maternal Health Platform"
 author: "MumToBe Team"
-
-# Language settings
 language: en
 
-# Site settings
-gitbook: ">=3.0.0"
+styles:
+  website: .docs/styles/website.css
 
-# Custom domains (if applicable)
-# domains:
-#   - docs.mumtobe.com
+variables:
+  scribehow_base_url: "https://scribehow.com"
+  embed_height: "900px"
 
-# Social links
 links:
-  # Add your project repository
-  github: "https://github.com/yourusername/mumtobe"
-  # Add your main website
+  github: "https://github.com/mumtobe/mumtobe-docs"
   website: "https://mumtobe.com"
-
-# Search configuration
-search:
-  maxIndexSize: 1000000
-
-# Feedback configuration
-feedback:
-  # Enable feedback collection
-  enabled: true
-  # Feedback email
-  email: "feedback@mumtobe.com"

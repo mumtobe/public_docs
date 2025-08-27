@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](../README.md)
+* [Introduction](README.md)
 
 ## For Expectant Mothers
 * [Getting Started](user-guides/expectant-mothers.md)
@@ -17,4 +17,3 @@
 ## Support
 * [Troubleshooting](../troubleshooting.md)
 * [FAQ](../faq.md)
-
