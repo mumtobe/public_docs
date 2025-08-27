@@ -4,16 +4,13 @@ O acompanhamento regular do peso é essencial para monitorizar a sua saúde dura
 
 ## Guia Interativo Passo a Passo
 
-<div class="scribehow-embed">
-  <iframe
-    src="https://scribehow.com/viewer/How_to_Log_Weight_and_Notes_on_Mum_To_Be_App__Xh3qI22rRJKodBVDar3i5g"
-    width="100%"
-    height="900"
-    frameborder="0"
-    allowfullscreen
-    title="How to Log Weight and Notes - Interactive Guide">
-  </iframe>
-</div>
+<iframe src="https://scribehow.com/viewer/How_to_Log_Weight_and_Notes_on_Mum_To_Be_App__Xh3qI22rRJKodBVDar3i5g"
+width="100%"
+height="900"
+frameborder="0"
+allowfullscreen
+title="Como Registar Peso e Notas - Guia Interativo">
+</iframe>
 
 **Não consegue ver o guia?** [Abrir numa nova janela](https://scribehow.com/viewer/How_to_Log_Weight_and_Notes_on_Mum_To_Be_App__Xh3qI22rRJKodBVDar3i5g)
 
