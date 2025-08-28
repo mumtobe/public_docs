@@ -1,3 +1,5 @@
+root: ./docs
+
 structure:
   readme: README.md
   summary: SUMMARY.md
@@ -24,7 +26,7 @@ pluginsConfig:
 title: "MumToBe User Guide"
 description: "Complete documentation for MumToBe Maternal Health Platform"
 author: "MumToBe"
-language: pt
+language: en
 
 variables:
   scribehow_base_url: "https://scribehow.com"
@@ -33,3 +35,6 @@ variables:
 links:
   github: "https://github.com/mumtobe/mumtobe-docs"
   website: "https://mumtobe.com"
+
+styles:
+  website: ./styles/website.css
