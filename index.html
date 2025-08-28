@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+        // Get the user's preferred language from the browser
+        const userLang = navigator.language || navigator.userLanguage;
+
+        // Check if the language starts with "pt"
+        if (userLang.startsWith('pt')) {
+            window.location.href = './pt/';
+        } else {
+            // Default to English if the language is not Portuguese
+            window.location.href = './en/';
+        }
+    </script>
+</head>
+<body>
+<p>
+    Redirecting you to the appropriate language version of the documentation...
+    <br />
+    If you are not redirected, please click one of the links below:
+</p>
+<ul>
+    <li><a href="./en/">English Documentation</a></li>
+    <li><a href="./pt/">Documentação em Português</a></li>
+</ul>
+</body>
+</html>

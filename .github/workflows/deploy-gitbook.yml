@@ -52,6 +52,7 @@ jobs:
         run: |
           mkdir -p docs/_book
           cp docs/LANGS.md docs/README.md docs/SUMMARY.md docs/faq.md docs/troubleshooting.md docs/_book/
+          cp index.html docs/_book/
 
       - uses: actions/configure-pages@v4
 
