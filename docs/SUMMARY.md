@@ -26,3 +26,4 @@
 * [Guias do Profissional](pt/provider-guides/healthcare-providers.md)
     * [Gestão de Pacientes](pt/provider-guides/patient-management.md)
     * [Ferramentas de Consulta](pt/provider-guides/consultation-tools.md)
+
