@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "honkit": "^3.7.0",
-    "honkit-plugin-github-pages": "*"
+    "github-pages": "*"
   }
 }
