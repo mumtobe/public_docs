@@ -1,9 +1,9 @@
-name: Deploy GitBook
+name: Deploy HonKit
 
 on:
   push:
     branches: [ main ]
-    paths: [ 'docs/**', '.gitbook.yaml' ]
+    paths: [ 'docs/**', 'package.json' ]
 
 permissions:
   contents: read
@@ -20,39 +20,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '18' # HonKit recommends Node.js 14+; Node 18 is a good LTS choice.
 
-      - name: Install and Fix GitBook
-        run: |
-          # Install GitBook CLI
-          npm install -g gitbook-cli@2.3.2
+      - name: Install dependencies
+        run: npm install
 
-          # Fix graceful-fs compatibility issue
-          cd $(npm root -g)/gitbook-cli/node_modules/npm/node_modules/
-          npm install graceful-fs@latest --save
-
-          # Verify GitBook installation
-          gitbook --version
-
-      - name: Build GitBook (docs/en)
-        run: |
-          cd docs/en
-          gitbook install
-          gitbook build . ../../_book/en
-
-      - name: Build GitBook (docs/pt)
-        run: |
-          cd docs/pt
-          gitbook install
-          gitbook build . ../../_book/pt
+      - name: Build HonKit
+        run: npm run build
+        working-directory: . # Run from the repository root
 
       - name: Copy root files
         run: |
-          mkdir -p docs/_book
-          cp docs/LANGS.md docs/README.md docs/SUMMARY.md docs/faq.md docs/troubleshooting.md docs/_book/
           cp index.html docs/_book/
+          # Copy any other root files like a custom favicon if needed
+          # cp favicon.ico docs/_book/
 
       - uses: actions/configure-pages@v4
 

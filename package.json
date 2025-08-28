@@ -1,0 +1,13 @@
+{
+  "name": "mumtobe-documentation",
+  "version": "1.0.0",
+  "description": "Your project's documentation.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx honkit build ./docs ./docs/_book",
+    "serve": "npx honkit serve ./docs"
+  },
+  "devDependencies": {
+    "honkit": "^3.7.0"
+  }
+}
