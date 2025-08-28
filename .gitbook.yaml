@@ -36,5 +36,3 @@ links:
   github: "https://github.com/mumtobe/mumtobe-docs"
   website: "https://mumtobe.com"
 
-styles:
-  website: ./styles/website.css
