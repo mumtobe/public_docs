@@ -22,29 +22,41 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '16'  # Using Node 16 for better GitBook compatibility
+          node-version: '16'
 
       - name: Install and Fix GitBook
         run: |
           # Install GitBook CLI
           npm install -g gitbook-cli@2.3.2
-          
+
           # Fix graceful-fs compatibility issue
           cd $(npm root -g)/gitbook-cli/node_modules/npm/node_modules/
           npm install graceful-fs@latest --save
-          
+
           # Verify GitBook installation
           gitbook --version
 
-      - name: Build GitBook
+      - name: Build GitBook (docs/en)
         run: |
-          cd docs
+          cd docs/en
           gitbook install
-          gitbook build . ./_book
+          gitbook build . ../../_book/en
+
+      - name: Build GitBook (docs/pt)
+        run: |
+          cd docs/pt
+          gitbook install
+          gitbook build . ../../_book/pt
+
+      - name: Copy root files
+        run: |
+          mkdir -p docs/_book
+          cp docs/LANGS.md docs/README.md docs/SUMMARY.md docs/faq.md docs/troubleshooting.md docs/_book/
 
       - uses: actions/configure-pages@v4
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs/_book
 
