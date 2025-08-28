@@ -8,6 +8,7 @@
     "serve": "npx honkit serve ./docs"
   },
   "devDependencies": {
-    "honkit": "^3.7.0"
+    "honkit": "^3.7.0",
+    "honkit-plugin-github-pages": "*"
   }
 }
