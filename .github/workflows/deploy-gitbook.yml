@@ -22,11 +22,22 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '16'  # Using Node 16 for better GitBook compatibility
+
+      - name: Install and Fix GitBook
+        run: |
+          # Install GitBook CLI
+          npm install -g gitbook-cli@2.3.2
+          
+          # Fix graceful-fs compatibility issue
+          cd $(npm root -g)/gitbook-cli/node_modules/npm/node_modules/
+          npm install graceful-fs@latest --save
+          
+          # Verify GitBook installation
+          gitbook --version
 
       - name: Build GitBook
         run: |
-          npm install -g gitbook-cli@2.3.2
           cd docs
           gitbook install
           gitbook build . ./_book
