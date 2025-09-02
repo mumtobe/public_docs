@@ -35,8 +35,7 @@ jobs:
       - name: Copy root files
         run: |
           cp index.html docs/_book/
-          # Copy any other root files like a custom favicon if needed
-          # cp favicon.ico docs/_book/
+          cp -f index.html docs/_book/index.html
 
       - uses: actions/configure-pages@v4
 

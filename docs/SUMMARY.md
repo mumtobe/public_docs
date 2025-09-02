@@ -1,5 +1,6 @@
 # Summary
 
+* [🌍 Language Selection](../index.html)
 * [Introduction](README.md)
 * [Languages](LANGS.md)
 

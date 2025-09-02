@@ -1,5 +1,7 @@
 # Guia do Utilizador MumToBe
 
+> 🌍 **Idioma**: Português | [English](../en/) | [🏠 Seleção de Idioma](../)
+
 Bem-vindo ao MumToBe! Este guia abrangente irá ajudá-la a tirar o máximo partido da nossa plataforma de saúde materna.
 
 ## O que é o MumToBe?

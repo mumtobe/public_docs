@@ -1,5 +1,8 @@
 # MumToBe User Guide
 
+> 🌍 **Language**: English | [Português](../pt/) | [🏠 Language Selection](../)
+
+
 Welcome to MumToBe! This comprehensive guide will help you make the most of our maternal health platform.
 
 ## What is MumToBe?

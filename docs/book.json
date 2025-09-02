@@ -1,7 +1,10 @@
 {
-  "plugins": [],
+  "plugins": [
+    "-sharing"
+  ],
   "pluginsConfig": {},
-  "site": {
-    "basePath": "/public_docs"
+  "variables": {
+    "version": "1.0.0",
+    "title": "MumToBe Documentation"
   }
 }
