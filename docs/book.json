@@ -1,5 +1,7 @@
 {
-  "plugins": [
-    "github-pages"
-  ]
+  "plugins": [],
+  "pluginsConfig": {},
+  "site": {
+    "basePath": "/public_docs"
+  }
 }
