@@ -5,7 +5,7 @@ Regular weight tracking is essential for monitoring your pregnancy health. This 
 ## Interactive Step-by-Step Guide
 
 <iframe
-    src="https://scribehow.com/viewer/How_to_Log_Weight_and_Notes_on_Mum_To_Be_App__Xh3qI22rRJKodBVDar3i5g"
+    src="https://scribehow.com/viewer/Atualizacao_Dados_de_Saude_Peso_e_Notas_Adicionais__1_2zxKcNRGabZmSH4poeJQ"
     width="100%"
     height="900"
     frameborder="0"
@@ -13,7 +13,7 @@ Regular weight tracking is essential for monitoring your pregnancy health. This 
     title="How to Log Weight and Notes - Interactive Guide">
 </iframe>
 
-**Can't see the guide?** [Open in new window](https://scribehow.com/viewer/How_to_Log_Weight_and_Notes_on_Mum_To_Be_App__Xh3qI22rRJKodBVDar3i5g)
+**Can't see the guide?** [Open in new window](https://scribehow.com/viewer/Atualizacao_Dados_de_Saude_Peso_e_Notas_Adicionais__1_2zxKcNRGabZmSH4poeJQ)
 
 ## Why Track Your Weight?
 

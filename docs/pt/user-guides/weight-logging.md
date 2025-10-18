@@ -4,7 +4,7 @@ O acompanhamento regular do peso é essencial para monitorizar a sua saúde dura
 
 ## Guia Interativo Passo a Passo
 
-<iframe src="https://scribehow.com/viewer/How_to_Log_Weight_and_Notes_on_Mum_To_Be_App__Xh3qI22rRJKodBVDar3i5g"
+<iframe src="https://scribehow.com/viewer/Atualizacao_Dados_de_Saude_Peso_e_Notas_Adicionais__1_2zxKcNRGabZmSH4poeJQ"
 width="100%"
 height="900"
 frameborder="0"
@@ -12,7 +12,7 @@ allowfullscreen
 title="Como Registar Peso e Notas - Guia Interativo">
 </iframe>
 
-**Não consegue ver o guia?** [Abrir numa nova janela](https://scribehow.com/viewer/How_to_Log_Weight_and_Notes_on_Mum_To_Be_App__Xh3qI22rRJKodBVDar3i5g)
+**Não consegue ver o guia?** [Abrir numa nova janela](https://scribehow.com/viewer/Atualizacao_Dados_de_Saude_Peso_e_Notas_Adicionais__1_2zxKcNRGabZmSH4poeJQ)
 
 ## Porque Acompanhar o Peso?
 
