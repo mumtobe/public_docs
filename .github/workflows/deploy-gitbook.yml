@@ -36,6 +36,7 @@ jobs:
         run: |
           cp index.html docs/_book/
           cp -f index.html docs/_book/index.html
+          cp docs/.nojekyll docs/_book/.nojekyll
 
       - uses: actions/configure-pages@v4
 
