@@ -17,16 +17,9 @@
 * [Log Mood](user-guides/mood-tracking.md)
 * [Log Health Information & Symptoms](user-guides/health-info.md)
 
-### Appointments & Records
-* [Appointment Scheduling](user-guides/appointments.md)
-* [Medical Records Access](user-guides/medical-records.md)
-* [Using the Pregnancy Handbook](user-guides/pregnancy-handbook.md)
-
 ## For Healthcare Providers
-* [Provider Dashboard](provider-guides/healthcare-providers.md)
 * [View Patient List & Schedule Appointments](provider-guides/patient-list.md)
 * [Schedule Appointments & Attach Documents](provider-guides/consultation-tools.md)
-* [Patient Management](provider-guides/patient-management.md)
 
 ## Support
 * [Troubleshooting](../troubleshooting.md)
