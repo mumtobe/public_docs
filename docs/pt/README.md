@@ -49,5 +49,5 @@ O MumToBe foi concebido para apoiá-la durante a sua jornada de gravidez com fer
 
 ## Precisa de Ajuda?
 
-- 📧 Email: support@mumtobe.com
-- 🌐 Website: [mumtobe.com](https://mumtobe.com)
+- 📧 Email: info@mumtobe.pt
+- 🌐 Website: [mumtobe.pt](https://mumtobe.pt)

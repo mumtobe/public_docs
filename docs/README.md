@@ -44,4 +44,4 @@ MumToBe is a comprehensive maternal health platform designed to empower expectan
 
 ---
 
-For more information, please visit our [official website](https://mumtobe.com).
+For more information, please visit our [official website](https://mumtobe.pt).

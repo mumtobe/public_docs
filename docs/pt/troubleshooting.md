@@ -33,7 +33,7 @@ If the step-by-step guides aren't showing up:
 
 ## Still Need Help?
 
-1. **Email us**: support@mumtobe.com
+1. **Email us**: info@mumtobe.pt
 2. **Include in your message**:
     - What you were trying to do
     - What error message you saw

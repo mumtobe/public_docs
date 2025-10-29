@@ -42,4 +42,4 @@ A: Yes, you can export and print your health tracking data from your dashboard.
 
 ## Still have questions?
 
-Contact us at support@mumtobe.com or through the in-app help feature.
+Contact us at info@mumtobe.pt or through the in-app help feature.

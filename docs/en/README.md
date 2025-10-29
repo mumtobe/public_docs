@@ -50,5 +50,5 @@ MumToBe is designed to support you throughout your pregnancy journey with tools 
 
 ## Need Help?
 
-- 📧 Email: support@mumtobe.com
-- 🌐 Website: [mumtobe.com](https://mumtobe.com)
+- 📧 Email: info@mumtobe.pt
+- 🌐 Website: [mumtobe.pt](https://mumtobe.pt)

@@ -31,7 +31,7 @@ Welcome to MumToBe! We're here to support you throughout your pregnancy journey 
 ## Getting Help
 
 - **In-App Support** - Use the help button in the app
-- **Email Support** - support@mumtobe.com
+- **Email Support** - info@mumtobe.pt
 - **Phone Support** - Available during business hours
 
 Ready to start tracking your health? Begin with our **[Weight & Notes Logging Guide](weight-logging.md)**!
