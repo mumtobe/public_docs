@@ -22,5 +22,5 @@
 * [Schedule Appointments & Attach Documents](provider-guides/consultation-tools.md)
 
 ## Support
-* [Troubleshooting](../troubleshooting.md)
-* [FAQ](../faq.md)
+* [Troubleshooting](troubleshooting.md)
+* [FAQ](faq.md)

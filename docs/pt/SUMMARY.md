@@ -22,5 +22,5 @@
 * [Agendar Consulta e Anexar Documentos](provider-guides/consultation-tools.md)
 
 ## Suporte
-* [Resolução de Problemas](../troubleshooting.md)
-* [FAQ](../faq.md)
+* [Resolução de Problemas](troubleshooting.md)
+* [FAQ](faq.md)
